@@ -1,4 +1,52 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family:arial;
+    color:white;
+}
+h1{
+    color:grey;
+    font-family:verdana;
+}
+.maindiv {
+    background-color: white;
+    color:black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin:auto;
+    font-weight: 500;
+    clear:both;
+    display: table;
 
-
+}
+.contentdiv {
+    background-color: white;
+    color:black;
+    margin:auto;
+    clear:both;
+    display: table;
+}
+.label{
+    float: left;
+    text-align: left;
+    padding-right: 25px;
+}
+.field{
+    float: right;
+    text-align: left;
+}
+.input{
+    text-align: center;
+    clear:both;
+    display: table;
+}
+.result{
+    line-height: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.interestform{
+    clear:both;
+    display: table;
+    line-height: 2;
+}
